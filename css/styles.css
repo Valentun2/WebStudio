@@ -254,7 +254,7 @@ body {
 }
 .contact-mobile-menu-namber {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -270,6 +270,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
+  margin-bottom: 40px;
 }
 .social-icon-item {
   width: 40px;
@@ -324,8 +325,7 @@ body {
 }
 .hero {
   padding-top: 112px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-bottom: 112px;
   height: 432px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -338,12 +338,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-@media only screen and (min-width: 1158px) {
-  .hero {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
+
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
@@ -402,6 +397,7 @@ body {
 @media only screen and (min-width: 1158px) {
   .hero {
     padding-top: 188px;
+    padding-bottom: 188px;
   }
 }
 .title {
@@ -770,6 +766,7 @@ body {
   .second-footer-div {
     margin-bottom: 0;
     margin-right: 24px;
+    align-items: start;
   }
 }
 @media only screen and (min-width: 1158px) {
