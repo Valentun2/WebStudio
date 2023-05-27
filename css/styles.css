@@ -233,10 +233,6 @@ body {
 .mobile-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
-.mobile-menu-link:focus,
-.mobile-menu-link:hover {
-  color: var(--button-color);
-}
 
 .mobile-menu-link:hover,
 .mobile-menu-link:focus {
@@ -246,6 +242,7 @@ body {
   margin-top: auto;
 }
 .contact-mobile-menu {
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -270,7 +267,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
-  margin-bottom: 40px;
 }
 .social-icon-item {
   width: 40px;
